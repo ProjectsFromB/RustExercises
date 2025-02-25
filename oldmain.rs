@@ -19,22 +19,22 @@ fn pg58ex1(){
 
     if input == 1{
         println!("Please enter the temperature:");    
-        let mut input=int::new();
+        let mut input: i32;
         io::stdin()
         .read_line (&mut input)
         .expect ("Failed to read input");
-        newtemp=temperature+32;
-        println!(&str(newtemp));
+        let newtemp: String=temperature+32;
+        println!("{ }", &str(newtemp));
     }
 
     if input == 2{
         println!("Please enter the temperature:");
-        let mut input2=int::new();
+        let mut input2: i32;
         io::stdin()
         .read_line (&mut input2)
         .expect("Failed to read input");
-        newtemp=temperature-32;
-        println!(newtemp);
+        let newtemp: String=temperature-32;
+        println!("{ }", &str(newtemp));
     }
 }
 
