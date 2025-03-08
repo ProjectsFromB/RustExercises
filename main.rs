@@ -58,7 +58,16 @@ fn pg58ex1() {
     }
 }
 
+
+fn pg58ex2() {
+    
+
+
+}    
+
 fn main() {
-    pg58ex1();
+//    pg58ex1();
+    pg58ex2();
+
 }
 
